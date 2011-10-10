@@ -1,0 +1,229 @@
+/* main login logout div*/
+div.main-login-logout{
+	margin-left:648px;
+	padding-bottom:10px;
+}
+
+
+/* while an user is logged in*/
+
+div.while-logged-in,div.while-logged-out,div.if-user-not-loggedin{
+	background-image: url('../images/gradient.gif');
+	background-repeat: repeat-y;
+	height:60px;
+	width:244px;	
+	margin:0 auto;
+	border-bottom-left-radius : 10px;
+	-moz-border-radius-bottomleft : 10px;
+	-webkit-border-bottom-left-radius : 10px;		
+	border-bottom-right-radius : 10px;
+	-moz-border-radius-bottomright : 10px;
+	-webkit-border-bottom-right-radius : 10px;
+	
+	
+	-moz-box-shadow: 2px 2px 5px #130505;
+	-webkit-box-shadow: 2px 2px 5px #130505;
+	box-shadow: 2px 2px 5px #130505;		
+			
+}
+
+
+
+
+/*some common properites for the div */
+div.while-logged-in a,div.while-logged-out a,div.if-user-not-loggedin-array a{
+	color:#d6f95d;
+	
+}
+
+div.while-logged-in div{
+	
+	font-family:Trebuchet MS;
+	font-size:11px;
+	font-weight:normal;
+}
+
+/* rollover effect for logout url */
+a.c-logout-rollover{
+	
+	display: block;
+	width: 52px;
+	height: 19px;
+	text-decoration: none;
+	background: url("../images/logout.gif") no-repeat 0 0;
+	text-indent: -10000px;
+	
+}
+
+a:hover.c-logout-rollover{
+	background-position:0 -19px;
+	
+}
+
+/* gravater handling */
+div.c-user-gravatar{
+	float:left;
+	padding-left:10px;
+	padding-top:8px;
+}
+
+/* user name handling */
+div.c-user-name{
+	float:left;
+	padding-left:6px;
+	padding-top:7px;	
+	color:#FFFFFF;
+	font-size:12px;
+		
+}
+
+/* logout image positoning*/
+div.c-user-logout-button{
+	float:right;
+	display: block;
+	float:right;
+	padding-right:10px;
+	padding-top:8px;
+}
+
+/* profile text manipulation */
+div.c-profile{
+	float:left;
+	padding-left:10px;
+	padding-top:5px;	
+	color:#FFFFFF;
+	
+	
+}
+
+div.c-view-edit{
+	float:left;
+	padding-left:5px;
+	padding-top:5px;	
+	color:#d6f95d;
+	
+}
+
+div.c-rank-points{
+	float:left;
+	float:left;
+	padding-left:5px;
+	padding-top:5px;	
+	color:#d6f95d;
+}
+
+/* end of the logge in functionalities*/
+
+
+
+/* Starting of the logged out functionalities*/
+div.while-logged-out{
+	display:none;
+	height:65px;
+	color:#FFFFFF;
+}
+
+/* use name and password settings*/
+
+div.c-username{
+	float:left;
+	padding-left:7px;
+	padding-top:1px;
+}
+
+div.c-password{
+	padding-top:1px;
+	float:left;
+	padding-left:32px;
+}
+
+/* rollover effect for login url */
+a.c-logout-rollover{
+	
+	display: block;
+	width: 52px;
+	height: 19px;
+	text-decoration: none;
+	background: url("../images/logout.gif") no-repeat 0 0;
+	text-indent: -10000px;
+	
+}
+
+a:hover.c-logout-rollover{
+	background-position:0 -19px;
+	
+}
+
+
+
+/* form data for login*/
+
+
+
+div.c-input-form{
+	float:left;
+	padding-left:2px;
+	
+}
+div.c-input-form input,div.c-name-password{
+	height:14px;
+}
+
+div.c-name-password{
+	float:left;
+	padding-left:3px;
+}
+
+
+div.c-submit-images{
+	float:left;
+	padding-left:12px;
+	
+}
+
+div.c-submit-images input{
+	height:20px;
+	padding-top:1px;
+	
+}
+
+div.c-register{
+	float:left;
+	padding-left:6px;
+}
+
+div.c-lost-pass{
+	float:left;
+	padding-left:45px;
+}
+
+
+/* adding the arrow symbol */
+
+div.if-user-not-loggedin{
+	
+	height:40px;
+}
+
+div.if-user-not-loggedin-array{
+	float:left;
+	padding-top:10px;
+	padding-left:10px;
+	font-size:15px;
+}
+
+div.arrow-down{
+	float:left;
+	padding-left:60px;
+	padding-top:14px;
+}
+
+div.show-arrow-up{
+	float:left;
+	padding-left:12px;
+	padding-top:1px;
+}
+
+div.login-barextending{
+	margin-top:25px;	
+}

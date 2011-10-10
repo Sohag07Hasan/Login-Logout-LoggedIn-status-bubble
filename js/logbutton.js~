@@ -1,0 +1,16 @@
+jQuery(document).ready(function($){
+	
+	//log in form shown if clicked
+	$('.login-image').click(function(){
+		/*
+		$('.login-logout-try').animate({
+			height: ['toggle', 'swing']
+		});
+		*/
+		$('.login-logout-try').fadeOut('slow', function() {
+			alert($(this).attr("class"));
+		});
+		
+		return false;
+	});
+});
